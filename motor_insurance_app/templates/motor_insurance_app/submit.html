@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+
+    <!-- all meta tags here-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- all css files here -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/default_skin.css">
+    <link rel="stylesheet" href="fonts/fontawesome-webfont.woff">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container" id="page-three" style="">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 delivery-box">
+
+                <div class="insurance_form delivery_details">
+                    <div class="form_top">
+                        <img src="img/form_title_bg.png" alt="form_title_bg" pagespeed_url_hash="747315747" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        <h2>Delivery Details</h2>
+                    </div>
+                    <div class="form_body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p id="add_address" style="color: seashell; font-weight: bold; display: none;">Please Enter an Address *</p>
+                                <textarea id="CustomerAddress" name="data[Customer][address]" class="form-control input_box textarea" rows="8" placeholder="Address Details"></textarea>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <div class="upload_box">
+                                    <p>Upload your BRTA Registration/Existing Insurance Certificate</p>
+                                    <div class="uploaded_images">
+                                        <img id="blah" src="img/take_picture.png" alt="your image" pagespeed_url_hash="1095549652" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div style="margin-bottom: 15px">
+                                        <span id="fileNames" style="margin-top: 10px; color: snow; text-align: center">Only jpg,jpeg,png format support(Max size 5Mb)</span>
+                                        <br>
+                                    </div>
+                                    <div style="position:relative;" id="img_uploader">
+                                        <a class="upload_btn" href="javascript:;" style="">
+Upload <img src="img/upload_icon.png" alt="upload_icon" pagespeed_url_hash="326266019" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<input type="file" style="position:absolute;z-index:2;top:-15px;padding:13px;left:0;filter: alpha(opacity=0);-ms-filter:&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=0)&quot;;opacity:0;background-color:transparent;color:transparent;" id="InsuranceCertificate" name="file_source" onchange="setfilename(this.value)">
+</a>
+                                        <br>
+                                    </div>
+                                    <div style="margin-top: 10px">
+                                        <span id="fileName" style="margin-top: 10px; color: snow">No File Uploaded</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center"> &nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            <div class="col-md-4 text-center"><img id="imgSpinner1" src="/mediabankcomparebd/img/loadingbar.gif" style="background-color:#CEF6D8;display: none" pagespeed_url_hash="1018476325" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+                            <div class="col-md-4 text-center">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="form_submit_button">
+                        <a href="javascript.void()" id="delivery_back_btn_arw">Back</a>
+                        <button type="submit" id="submit" name="">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- all js file here -->
+    <script src="js/content_1.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

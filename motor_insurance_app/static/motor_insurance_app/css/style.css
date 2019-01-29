@@ -1,0 +1,1079 @@
+*{margin:0;}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+.content_area{margin:4% 0 0;}
+.content_area .carousel h1{font-weight:700;color:#fff;font-size:50px; margin-bottom:23px;margin-top:60px}
+.content_area .carousel p{color:#fff;font-weight:100;font-size: 20px;}
+.content_area .carousel span{font-weight:900}
+.content_area .carousel ol.carousel-indicators{position:relative;bottom:-20px;}
+.content_area .carousel .carousel-item2 h1{
+    font-size: 30px;
+}
+.content-footer{
+    margin-top:10px;
+    background: #fffff2;
+}
+.public-flash .alert-danger{
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.page-top .left {
+    padding: 6px 0 0;
+    text-align: left;
+}
+.page-top .left {
+    padding: 6px 0 0;
+    text-align: left;
+}
+.page-top .left ul li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 100;
+    color: #ffffff;
+}
+input::placeholder { color: gray; }
+select option[value=''] {
+    color: gray;
+}
+
+.content-footer-lebel{padding: 0px; font-size: 20px; text-align: center; line-height: 100px;margin: 0px;}
+.content-footer .company-box{
+    /*border: 1px solid #dfdfdf;*/
+    border-radius: 2px;
+    color: #111;
+    font-size: 34px;
+    margin: 8px auto;
+    padding: 0;
+    text-align: center;
+}
+.content-footer .company-box.comp-logo2{
+    padding-top: 15px;
+}
+.insurance_form .form_top img {
+    position: absolute;
+    z-index: 1;
+    max-width: 90%;
+    left: 8%;
+    right: 0;
+}
+.ins-info-box .insurance_form .form_top img{
+    left: 16%;
+    max-width: 76%;
+}
+.ins-info-box  .insurance_form .form_top h2{
+    padding: 47px 0 0 0;
+}
+.insurance_form .form_top {
+    position: relative;
+    padding: 0 47px;
+}
+.insurance_form .form_top h2 {
+    background-size: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 21px;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 62px 0 0;
+}
+.insurance_form .form_body {
+    border-radius: 10px;
+    /*background: #00A69A;*/
+    background: rgba(61, 148, 103, 0.8);
+	padding: 85px 30px 20px 30px;
+}
+.insurance_form .input_box {
+    background:#fff;
+	display:block;
+	width:100%;
+	border:none;
+	border-radius:30px;
+	margin-bottom:15px;
+	padding:10px;
+	font-weight:100;
+	font-size:16px;
+	text-align: center;
+    text-align-last: center;
+	color:#000;
+}
+.passenger_seat.select select{
+    border-radius: 0 25px 25px 0;
+    padding-top: 11px;
+}
+.my_tooltip h4{
+    background: #39b54a;color: #d1d1d1; font-size: 16px; min-width: 280px;padding: 5px 10px;margin: 0px;
+}
+.my_tooltip p{
+    margin-bottom: 0;min-width: 280px;padding: 5px 10px;
+}
+.my_tooltip .apex-dn {
+    position: absolute;
+}
+.my_tooltip:after, .my_tooltip:before {
+    content: "";
+    width:0px;
+    height:0px;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    border-top:12px solid #fff;
+    position:absolute;
+    bottom:-12px;
+    left: 50%;
+    margin-left: -12px;
+    z-index:2;
+}
+.my_tooltip:before {
+    z-index:1;
+    border-top:12px solid red;
+    bottom:-13px;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #000;
+  opacity: 1;
+}
+.insurance_form .input_box.customer {
+    background: url("../img/customer_name.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.mobile{
+    background: url("../img/mobile_number.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.vehicle{
+    background: url("../img/vehcile_type.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.delivery{
+    background: url("../img/get_delivery.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.cc_capacity{
+    background: url("../img/cc_capacity.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.car_model{
+    background: url("../img/cc_capacity.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.ton_capacity{
+    background: url("../img/ton.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.insurance_coverage{
+    background: url("../img/Insurance-Coverage.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.arrow_down {
+    background: url("../img/arrow_down.png") no-repeat right 18px center/ 30px #fff;
+}
+.insurance_form .input_box.expire_date {
+    background: url("../img/expire_date.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .input_box.car_reg_type {
+    background: url("../img/track.png") no-repeat 8px 6px/ 30px #fff;
+}
+.insurance_form .passenger_label {
+
+}
+.insurance_form .input_box:focus{
+	outline:none;
+}
+.insurance_form .form_button button {
+    border-radius: 54px;
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 3px #FFFFFF;
+    background: #fff200;
+    margin-top: 15px;
+    padding: 10px 20px 8px;
+    font-size: 38px;
+    color: #006666;
+    font-weight: 700;
+    line-height: 57px;
+    text-shadow: 0 1px #ccc;
+}
+.insurance_form .form_button button img{
+	float:right;
+	width:33px;
+}
+.select{position:relative;}
+.select .arr {
+	background: #fff;
+	bottom: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 50px;
+	pointer-events: none;
+	border-radius: 25px;
+}
+.select .arr:before {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #aaa;
+  content: "";
+  margin-top: -3px;
+  pointer-events: none;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+}
+
+.select .arr:after {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+  content: "";
+  margin-top: -5px;
+  pointer-events: none;
+  position: absolute;
+  right: 17px;
+  top: 50%;
+}
+
+
+.insurance_form.delivery_details .input_box.textarea{
+	border-radius:15px;
+}
+.insurance_form.delivery_details .input_box{
+	text-align:left;
+	text-align-last: left;
+	padding-left:15px;
+	
+}
+.insurance_form.delivery_details .select .arr {
+	width:18px;
+	border-radius:0 25px 25px 0;
+}
+.insurance_form.delivery_details .select .arr:before {
+  border:none;
+}
+
+.insurance_form.delivery_details .select .arr:after {
+  border:none;
+}
+
+.insurance_form.delivery_details .form_top img {
+	left: 45px;
+	margin: 0 auto;
+}
+.insurance_form.delivery_details .form_top h2 {
+	font-size: 24px;
+	padding: 60px 0 0;
+	text-align: center;
+}
+.insurance_form.delivery_details .form_body {
+	border-radius: 10px;
+	background: rgba(25, 123, 48, 0.7);
+	padding: 100px 30px 60px 30px;
+}
+
+.upload_box p{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
+.upload_btn {
+	background: #31c47b;
+	padding: 15px 25px;
+	color: #fff;
+	border-radius: 32px;
+	font-size: 20px;
+}
+
+.upload_btn img {
+	width: 40px;
+	margin-left: 12px;
+}
+.upload_btn:hover{
+	text-decoration:none;
+	color:#fff;
+	background:#42c886;
+	
+}
+.uploaded_images {
+    height: 220px;
+    margin: 0 auto 30px;
+    width: 180px;
+}
+.uploaded_images img{
+	width:100%;
+}
+.form_submit_button{
+	text-align: center;
+    margin-top: -38px;
+}
+.form_submit_button a{
+    left: 20px;
+    margin-top: 36px;
+    position: absolute;
+    text-align: left;
+}
+.form_submit_button a:before {
+    font-family: FontAwesome;
+    content: "\f053";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+}
+.form_submit_button button {
+    border-top: 3px solid #66cc68;
+    border-radius: 54px;
+    padding: 17px;
+    font-size: 26px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 0px 3px #0b3215 inset;
+    border-bottom: 3px solid #66cd98;
+    border-left: 3px solid #66cd98;
+    color: #006766;
+    background: #fff;
+    border-right: 3px solid #66cd98;
+    text-transform: uppercase;
+}
+.form_submit_button button:focus{
+	outline:none;
+}
+.passenger_label {
+    background: url("../img/passanger_set.png") no-repeat 8px 6px/ 30px rgba(255,255,255,.9);
+    padding: 10px 2px 10px 12px;
+    border-radius: 25px 0 0 25px;
+    color:#008a32;
+    font-size: 14px;
+    text-align:center;
+}
+.passenger_label a {
+    display: inline-block;
+    padding: 7px;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    line-height: 10px;
+	float:right;
+	text-decoration:none;
+}
+.passenger_seat{position:relative;}
+.passenger_seat button{background:none;border:none;}
+.passenger_seat .up{position:absolute;right:10px}
+.passenger_seat .down{position:absolute;right:10px;top:20px;}
+.passenger.row, .passenger .row{margin:0;}
+.passenger.row .col-md-2, .passenger.row .col-md-4, .passenger.row .col-md-5, .passenger.row .col-md-6, .passenger.row .col-md-7, .passenger.row .col-md-3{padding:0;}
+.passenger_seat .input_box.input-number{
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+}
+/* Jakir added>>>> */
+.ins_amount .ui-corner-all, .passenger_seat .ui-corner-all{
+    border-radius:0px;
+}
+.ins_amount .ui-widget-content, .passenger_seat .ui-widget-content {
+    background: none;
+    border: 1px none #bdc3c7;
+    margin-top: 0;
+    width: 100%;
+}
+.ins_amount .ui-widget-content .input_box.input-number, .passenger_seat .ui-widget-content .input_box.input-number{
+    margin: 0 0 15px;
+    padding-left: 0px;
+}
+.insurance_form .ui-widget-content .ui-spinner-button{
+    bottom:16px;
+    right: 10px;
+}
+.ins_amount .ui-widget-content .ui-spinner-button{
+    right: 0;
+}
+.ltticon {
+    border: 6px solid #0a4c8c;
+    border-radius: 18px;
+    margin: 1px 2px 0 8px;
+    padding: 2px;
+    position: absolute;
+}
+.passenger_amount .ins-fee{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* Jakir added <<< */
+.passenger .fee, .passenger .year{
+    background: rgba(255,255,255,.9);
+    padding: 10px 8px;
+    color:#008a32;
+    font-size: 14px;
+}
+.passenger .year{
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+}
+.passenger_amount .input_box.input-number {border-radius: 0px}
+
+/* breadcrumb */
+
+//* -------------------------------- 
+
+Basic Style
+
+-------------------------------- */
+.cd-breadcrumb, .cd-multi-steps {
+  width: 90%;
+  max-width: 768px;
+  padding: 0.5em 1em;
+  margin: 1em auto;
+  background-color: #edeff0;
+  border-radius: .25em;
+}
+.cd-breadcrumb:after, .cd-multi-steps:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-breadcrumb li, .cd-multi-steps li {
+  display: inline-block;
+  float: left;
+  margin: 0.5em 0;
+}
+.cd-breadcrumb li::after, .cd-multi-steps li::after {
+  /* this is the separator between items */
+  display: inline-block;
+  content: '\00bb';
+  margin: 0 .6em;
+  color: #959fa5;
+}
+.cd-breadcrumb li:last-of-type::after, .cd-multi-steps li:last-of-type::after {
+  /* hide separator after the last item */
+  display: none;
+}
+.cd-breadcrumb li > *, .cd-multi-steps li > * {
+  /* single step */
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.cd-breadcrumb li.current > *, .cd-multi-steps li.current > * {
+  /* selected step */
+  color: #96c03d;
+}
+.no-touch .cd-breadcrumb a:hover, .no-touch .cd-multi-steps a:hover {
+  /* steps already visited */
+  color: #96c03d;
+}
+.cd-breadcrumb.custom-separator li::after, .cd-multi-steps.custom-separator li::after {
+  /* replace the default arrow separator with a custom icon */
+  content: '';
+  height: 16px;
+  width: 16px;
+  background: url(../img/cd-custom-separator.svg) no-repeat center center;
+  vertical-align: middle;
+}
+.cd-breadcrumb.custom-icons li > *::before, .cd-multi-steps.custom-icons li > *::before {
+  /* add a custom icon before each item */
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: .4em;
+  margin-top: -2px;
+    background: url("../../img/insurance/cd-custom-icons-01.svg") no-repeat 0 0;
+  vertical-align: middle;
+}
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(2) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(2) > *::before {
+  /* change custom icon using image sprites */
+  background-position: -20px 0;
+}
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(3) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(3) > *::before {
+  background-position: -40px 0;
+}
+.cd-breadcrumb.custom-icons li:not(.current):nth-of-type(4) > *::before, .cd-multi-steps.custom-icons li:not(.current):nth-of-type(4) > *::before {
+  background-position: -60px 0;
+}
+.cd-breadcrumb.custom-icons li.current:first-of-type > *::before, .cd-multi-steps.custom-icons li.current:first-of-type > *::before {
+  /* change custom icon for the current item */
+  background-position: 0 -20px;
+}
+.cd-breadcrumb.custom-icons li.current:nth-of-type(2) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(2) > *::before {
+  background-position: -20px -20px;
+}
+.cd-breadcrumb.custom-icons li.current:nth-of-type(3) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(3) > *::before {
+  background-position: -40px -20px;
+}
+.cd-breadcrumb.custom-icons li.current:nth-of-type(4) > *::before, .cd-multi-steps.custom-icons li.current:nth-of-type(4) > *::before {
+  background-position: -60px -20px;
+}
+@media only screen and (min-width: 768px) {
+  .cd-breadcrumb, .cd-multi-steps {
+    padding: 0 1.2em;
+  }
+  .cd-breadcrumb li, .cd-multi-steps li {
+    margin: 1.2em 0;
+  }
+  .cd-breadcrumb li::after, .cd-multi-steps li::after {
+    margin: 0 1em;
+  }
+  .cd-breadcrumb li > *, .cd-multi-steps li > * {
+    font-size: 2rem;
+  }
+}
+
+/* -------------------------------- 
+
+Multi steps indicator 
+
+-------------------------------- */
+@media only screen and (min-width: 768px) {
+  .cd-multi-steps {
+    /* reset style */
+    background-color: transparent;
+    padding: 0;
+        /*text-align: center;*/
+  }
+
+  .cd-multi-steps li {
+    position: relative;
+    float: none;
+        margin: 0.4em 36px 0.4em 0;
+  }
+  .cd-multi-steps li:last-of-type {
+    margin-right: 0;
+  }
+  .cd-multi-steps li::after {
+    /* this is the line connecting 2 adjacent items */
+    position: absolute;
+    content: '';
+    height: 4px;
+    background: #edeff0;
+    /* reset style */
+    margin: 0;
+  }
+  .cd-multi-steps li.visited::after {
+    background-color: #96c03d;
+  }
+  .cd-multi-steps li > *, .cd-multi-steps li.current > * {
+    position: relative;
+    color: #2c3f4c;
+  }
+
+  .cd-multi-steps.custom-separator li::after {
+    /* reset style */
+    height: 4px;
+    background: #edeff0;
+  }
+
+  .cd-multi-steps.text-center li::after {
+    width: 100%;
+    top: 50%;
+    left: 100%;
+    -webkit-transform: translateY(-50%) translateX(-1px);
+    -moz-transform: translateY(-50%) translateX(-1px);
+    -ms-transform: translateY(-50%) translateX(-1px);
+    -o-transform: translateY(-50%) translateX(-1px);
+    transform: translateY(-50%) translateX(-1px);
+  }
+  .cd-multi-steps.text-center li > * {
+    z-index: 1;
+    padding: .6em 1em;
+    border-radius: .25em;
+    background-color: #edeff0;
+  }
+  .no-touch .cd-multi-steps.text-center a:hover {
+    background-color: #2c3f4c;
+  }
+  .cd-multi-steps.text-center li.current > *, .cd-multi-steps.text-center li.visited > * {
+    color: #ffffff;
+    background-color: #96c03d;
+  }
+  .cd-multi-steps.text-center.custom-icons li.visited a::before {
+    /* change the custom icon for the visited item - check icon */
+    background-position: 0 -60px;
+  }
+
+  .cd-multi-steps.text-top li, .cd-multi-steps.text-bottom li {
+    width: 226px;
+    text-align: center;
+  }
+  .cd-multi-steps.text-top li::after, .cd-multi-steps.text-bottom li::after {
+    /* this is the line connecting 2 adjacent items */
+    position: absolute;
+    left: 50%;
+    /* 40px is the <li> right margin value */
+    width: calc(100% + 40px);
+  }
+  .cd-multi-steps.text-top li > *::before, .cd-multi-steps.text-bottom li > *::before {
+    /* this is the spot indicator */
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #4a5d6a;
+    border: 1px solid #fff;
+  }
+  .cd-multi-steps.text-top li.visited > *::before,
+  .cd-multi-steps.text-top li.current > *::before, .cd-multi-steps.text-bottom li.visited > *::before,
+  .cd-multi-steps.text-bottom li.current > *::before {
+    background-color: #96c03d;
+  }
+  .no-touch .cd-multi-steps.text-top a:hover, .no-touch .cd-multi-steps.text-bottom a:hover {
+    color: #96c03d;
+  }
+  .no-touch .cd-multi-steps.text-top a:hover::before, .no-touch .cd-multi-steps.text-bottom a:hover::before {
+    box-shadow: 0 0 0 3px rgba(150, 192, 61, 0.3);
+  }
+
+  .cd-multi-steps.text-top li::after {
+    /* this is the line connecting 2 adjacent items */
+    bottom: 4px;
+  }
+  .cd-multi-steps.text-top li > * {
+    padding-bottom: 20px;
+  }
+  .cd-multi-steps.text-top li > *::before {
+    /* this is the spot indicator */
+    bottom: 0;
+  }
+
+  .cd-multi-steps.text-bottom li::after {
+    /* this is the line connecting 2 adjacent items */
+    top: 3px;
+  }
+  .cd-multi-steps.text-bottom li > * {
+    padding-top: 20px;
+  }
+  .cd-multi-steps.text-bottom li > *::before {
+    /* this is the spot indicator */
+    top: 0;
+  }
+}
+/* -------------------------------- 
+
+Add a counter to the multi-steps indicator 
+
+-------------------------------- */
+.cd-multi-steps.count li {
+  counter-increment: steps;
+}
+
+.cd-multi-steps.count li > *::before {
+  content: counter(steps) " - ";
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-multi-steps.text-top.count li > *::before,
+  .cd-multi-steps.text-bottom.count li > *::before {
+    /* this is the spot indicator */
+    content: counter(steps);
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+
+  .cd-multi-steps.text-top.count li:not(.current) em::before,
+  .cd-multi-steps.text-bottom.count li:not(.current) em::before {
+    /* steps not visited yet - counter color */
+    color: #2c3f4c;
+  }
+
+  .cd-multi-steps.text-top.count li::after {
+    bottom: 11px;
+  }
+
+  .cd-multi-steps.text-top.count li > * {
+    padding-bottom: 34px;
+  }
+
+  .cd-multi-steps.text-bottom.count li::after {
+    top: 11px;
+  }
+
+  .cd-multi-steps.text-bottom.count li > * {
+    padding-top: 34px;
+	text-decoration:none;
+	color:#fff;
+  }
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+.insurance_form .cd-multi-steps.text-bottom li {
+    width: 152px;
+}
+.insurance_form .cd-breadcrumb li > *, .cd-multi-steps li > * {
+    font-size: 1.7rem;
+}
+.insurance_form.delivery_details .cd-multi-steps.text-bottom li {
+    width: 216px;
+}
+
+.popover{border-radius:0;}
+.popover-content{
+	width:276px;
+}
+
+.popover-title {
+    font-size: inherit;
+    font-weight: bold;
+    margin: 0;
+    border-radius: 0;
+    padding: .4em 1em;
+    color: white;
+    background-color: #A3C139;
+    min-height: 1em
+}
+
+.margin_bill{
+	margin-top:25px;
+}
+.insurance_form.bill_summary_title .form_top h2 {
+    font-size: 18px;
+    padding-bottom: 66px;
+    padding-left: 0;
+    padding-top: 39px;
+}
+.insurance_form.bill_summary_title .form_top h2 span{
+	font-size:16px;
+	text-transform:initial;
+}
+.bill_summary_author{
+	background:#fff;
+	background:url(../img/form_author_title_bg.png) no-repeat 0 0/100% 100%;
+	overflow:hidden;
+	text-align:center;
+	margin-top:-100px;
+	height:440px;
+	color: #006666;
+}
+.bill_summary_author .name {
+    font-weight: 900;
+    margin-top: 123px;
+    font-size: 24px;
+}
+.bill_summary_author .total_price h1 {
+    font-weight: 700;
+    margin: 0;
+    margin-top: -12px;
+    font-size: 89px;
+    line-height: 50px;
+    color:#000;
+}
+.bill_summary_author .total_price span {
+    font-size: 24px;
+    margin-left:-120px;
+    font-weight: 400;
+}
+.bill_summary_author .total_price strong {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.bill_summary_author .date{
+	margin-top:45px;
+}
+.bill_summary_author .date h4{
+	margin:0;
+	font-size:16px;
+	font-weight:900;
+}
+.bill_summary_author .date p{
+	font-size:16px;
+}
+.insurance_form.delivery_details.bill_summary .form_body{
+	padding:20px 30px 50px;
+	color:#fff;
+}
+.bill_summary h3 {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    color:#FFFFFF;
+}
+.bill_summary table{
+	margin-bottom:0;
+}
+.bill_summary table tr td{
+	border:none;
+	padding:8px 0;
+}
+.bill_summary table tr th{
+	border-top:1px solid #fff;
+	padding:8px 0;
+}
+.bill_summary table tr span.total{
+	font-weight:700;
+	font-size:26px;
+}
+.bill_summary table tr td:last-child, .bill_summary table tr th:last-child{
+	text-align:right;
+}
+@media (max-width: 1200px) {
+    .carousel-indicators{
+        padding-bottom: 20px;
+    }
+	.insurance_form .form_top h2 {
+		font-size: 18px;
+		padding: 51px 0 0;
+	}
+	.insurance_form .form_top img {
+		left: 8%;
+	}
+	.content_area .carousel h1 {
+		font-size: 49px;
+	}
+	.content_area .carousel p {
+		font-size: 25px;
+	}
+	.insurance_form .cd-breadcrumb li > *, .cd-multi-steps li > * {
+		font-size: 1.3rem;
+	}
+	.insurance_form .cd-multi-steps.text-bottom li {
+		width: 122px;
+	}
+	.insurance_form.delivery_details .cd-multi-steps.text-bottom li {
+		width: 176px;
+	}
+	.passenger_label {
+		padding: 10px 0 10px 12px;
+		font-size: 12px;
+	}
+	.passenger .year {
+		padding: 10px 3px;
+	}
+}
+@media (max-width: 992px) {
+	.content_area {
+		margin: 10% 0;
+	}
+	.content_area .carousel h1 {
+		font-size: 58px;
+		margin-top: 0px;
+	}
+	.insurance_form{
+		margin-top:30px;
+	}
+	.insurance_form .form_top img{
+		margin:0 auto;
+	}
+	.insurance_form .form_top h2 {
+		text-align: center;
+		padding: 66px 45px 0px;
+	}
+	.insurance_form .form_body {
+		padding: 85px 30px 20px 30px;
+	}
+	.insurance_form .cd-multi-steps.text-bottom li {
+		width: 124px;
+	}
+	.bill_summary .table-responsive{
+		border:none;
+	}
+	
+}
+@media (max-width: 576px) {
+    #page-top, #page-one,#page-two, #page-three{padding:0}
+	.content_area {
+		margin: 6% 0 0 0;
+	}
+	.content_area .carousel h1 {
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+    .ins-info-box .insurance_form .form_top h2{
+        padding: 29px 0 0 9px;
+    }
+    .passenger_seat.select select{
+        border-radius: 25px;
+        background: #fff url("../../img/insurance/passanger_set.png") no-repeat scroll 8px 6px / 30px auto;
+    }
+    .content_area .carousel .carousel-item2 h1{
+        font-size: 21px;
+    }
+    .carousel-inner > .item{
+        text-align: center;
+    }
+    .margin_bill{
+        margin-top:-25px;
+    }
+    .delivery-box .insurance_form{
+        margin-top: 0;
+    }
+    .delivery-box  .insurance_form .form_top{
+        font-family: "Roboto",sans-serif;
+        padding: 0 41px 0 20px;
+        position: relative;
+    }
+	.insurance_form .form_top img {
+        left: 22px;
+        max-width: 85%;
+	}
+    .bill-box .insurance_form .form_top img{
+        margin-top:-4px;
+    }
+    .bill-box .insurance_form {
+        /*margin-top: 75px;*/
+    }
+	.insurance_form .form_top h2 {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 18px;
+        padding: 31px 36px 0;
+        word-spacing: 5px;
+        font-family: inherit;
+	}
+
+    .content_area .carousel p {
+        font-size: 17px;
+        line-height: 17px;
+        margin: 0;
+        padding-top: 4px;
+    }
+	.insurance_form .form_body {
+		padding: 55px 12px 15px;
+	}
+	.insurance_form .form_button button {
+		padding: 5px 20px 5px;
+		font-size: 22px;
+	}
+	.insurance_form .form_button button img {
+		width: 31px;
+	}
+	.insurance_form.delivery_details .form_top h2 {
+		padding: 31px 0px 0px;
+		font-size: 15px;
+	}
+	.insurance_form.delivery_details .form_top img {
+		left: 15px;
+		margin: 0 auto;
+	}
+	.insurance_form.delivery_details .form_body {
+		padding: 60px 0px 60px 0px;
+	}
+    .insurance_form.delivery_details.bill_summary .form_body{
+        padding: 17px 17px 44px;
+    }
+	.passenger_label {
+		padding: 0 0 4px;
+		font-size: 14px;
+		background: none;
+		color: #fff;
+        text-align: center;
+        display: none;
+	}
+	.passenger_seat .input_box.input-number {
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	.passenger .year {
+		/*padding: 0px 3px 8px;*/
+		/*background: none;*/
+		/*color: #fff;*/
+		/*margin-top: -10px;*/
+	}
+	.passenger_amount .passenger_seat .input_box.input-number {
+		border-radius: 25px;
+	}
+    .ins_amount .ui-widget-content .input_box.input-number{
+        border-radius: 25px 0px 0px 25px;
+    }
+    .passenger_seat .ui-widget-content .input_box.input-number{
+        border-radius: 25px;
+    }
+    .bill-box, .ins-info-box, .delivery-box{
+        padding: 0px;
+    }
+	.bill_summary_author {
+		height:320px;
+		margin-top: -75px;
+	}
+	.insurance_form.bill_summary_title .form_top h2 {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 31px 22px 48px 0;
+		
+	}
+    .content-footer-lebel {
+        font-size: 15px;
+        padding: 11px 0;
+        margin: 0px;
+        line-height: 15px;
+    }
+	.bill_summary_author .name {
+		margin-top: 88px;
+		font-size: 16px;
+	}
+	.bill_summary_author .total_price h1 {
+		margin: 0;
+		margin-top: 1px;
+		font-size: 38px;
+		line-height: 40px;
+	}
+	.bill_summary_author .total_price strong {
+		font-size: 22px;
+		font-weight: 600;
+		margin-top: 4px;
+	}
+	.bill_summary_author .total_price span {
+		margin-left: -28px;
+        font-size: 18px;
+        text-transform: capitalize;
+	}
+	.bill_summary_author .date {
+		margin-top: 24px;
+	}
+	.bill_summary_author .date h4 {
+		font-size: 13px;
+	}
+	.bill_summary_author .date p {
+		font-size: 14px;
+	}
+	.bill_summary .table-responsive{
+		border:none;
+	}
+    #page-three .form_top img{
+        width: 92%;
+    }
+    #page-three .insurance_form .form_top h2{
+        padding-left: 10px;
+        font-weight: normal;
+    }
+    .upload_box p{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .uploaded_images {
+        margin: 0 auto 30px;
+        width: 146px;
+        height: auto;
+    }
+    .content-footer .company-box{
+        padding: 0px;
+        font-size: 27px;
+    }
+}
+
+
+

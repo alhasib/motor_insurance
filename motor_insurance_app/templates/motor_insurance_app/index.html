@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<head>
+
+    <!-- all meta tags here-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- all css files here -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+   
+
+</head>
+
+<body>
+<h1>Hasib</h1>
+    <div class="body">
+        <section id="partners">
+            <form name="Insurance" class="" method="post" action="#" enctype="multipart/form-data" id="Insurance">
+                <section class="content_area">
+                    <div class="container" id="page-one" style="display: block;">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 ins-info-box text-center">
+                                <div class="insurance_form">
+                                    <div class="form_top">
+                                        <img src="static/img/form_title_bg.png" alt="Insurance Information">
+                                        <h2>Insurance Info</h2>
+                                    </div>
+                                    <div class="form_body">
+                                        <input type="hidden" name="data[Insurance][id]" id="Insurance_id" value="">
+                                        <input type="hidden" name="" id="Insurance_existing" value="0">
+                                        <input type="text" name="data[Customer][name]" class="input_box customer" id="customer_name" value="" placeholder="Customer Name" autocomplete="off">
+                                        <input type="text" name="data[Customer][mobile]" class="input_box mobile" id="customer_mobile" value="" placeholder="Customer Mobile" autocomplete="off" onkeypress="return checkKey(event)">
+                                        <div class="select">
+                                            <span class="arr"></span>
+                                            <select name="data[Insurance][car_type]" id="Insurance_car_type" class="input_box vehicle" style="color: rgb(128, 128, 128);">
+                                                <option value="">Vehicle Type</option>
+                                                <option value="1">
+                                                    Private Car </option>
+                                                <option value="2">
+                                                    Micro Bus </option>
+                                                <option value="3">
+                                                    CNG/Three wheeler </option>
+                                                <option value="4">
+                                                    Pickup Van </option>
+                                                <option value="5">
+                                                    Motor Cycle </option>
+                                            </select>
+                                        </div>
+                                        <div style="display: none" id="car_model_hidden_fields">
+                                            <input type="text" name="data[Insurance][car_model]" class="input_box car_model" id="Insurance_car_model" value="" placeholder="Enter Vehicle Model" autocomplete="off">
+                                        </div>
+                                        <div style="display: none" id="hidden_fields">
+                                            <div class="select">
+                                                <span class="arr"></span>
+                                                <select name="data[Insurance][car_reg_type]" id="Insurance_car_reg_type" class="input_box car_reg_type" style="color: rgb(128, 128, 128);">
+                                                    <option value="">Registration Type</option>
+                                                    <option value="1">
+                                                        Private Vehicle </option>
+                                                    <option value="2">
+                                                        Commercial Vehicle </option>
+                                                </select>
+                                            </div>
+                                            <div class="select ccTonCap" id="ccc">
+                                                <span class="arr"></span>
+                                                <select name="data[Insurance][cc_capacity]" id="Insurance_cc_capacity" class="input_box cc_capacity" style="color: rgb(128, 128, 128);">
+                                                    <option value="">CC Capacity</option>
+                                                    <option value="150">
+                                                        Up to 1300 CC </option>
+                                                    <option value="344">
+                                                        Up to 1300 CC </option>
+                                                    <option value="250">
+                                                        1301 CC - 1800 CC </option>
+                                                    <option value="344.0">
+                                                        1301 CC - 1800 CC </option>
+                                                    <option value="350">
+                                                        1801 CC - 3000 CC </option>
+                                                    <option value="450">
+                                                        Above 3000 CC </option>
+                                                    <option value="100">
+                                                        Up to 150 CC </option>
+                                                    <option value="130">
+                                                        150 CC - 250 CC </option>
+                                                    <option value="160">
+                                                        250 CC - 350 CC </option>
+                                                </select>
+                                            </div>
+                                            <div class="select ccTonCap" id="ttc">
+                                                <span class="arr"></span>
+                                                <select name="data[Insurance][ton_capacity]" id="Insurance_ton_capacity" class="input_box ton_capacity" style="color: rgb(128, 128, 128);">
+                                                    <option value="">Ton Capacity</option>
+                                                    <option value="560">
+                                                        Up to 3 tons </option>
+                                                    <option value="630">
+                                                        Above 3 to 4 tons </option>
+                                                    <option value="700">
+                                                        Above 4 to 5 tons </option>
+                                                </select>
+                                            </div>
+                                            <div class="select">
+                                                <span class="arr"></span>
+                                                <select name="data[Insurance][insurance_coverage]" id="Insurance_insurance_coverage" class="input_box insurance_coverage" style="color: rgb(128, 128, 128);">
+                                                    <option value="">Select Coverage</option>
+                                                    <option value="2">
+                                                        Third Party/Act Liability </option>
+                                                </select>
+                                            </div>
+                                            <div class="row passenger pass_seat">
+                                                <div class="col-sm-7 col-md-7">
+                                                    <div class="passenger_label">
+                                                        <span style="font-weight: bold; padding-left: 10px">Passenger Seat (Except Driver)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5 col-md-5">
+                                                    <div class="passenger_seat select" id="pset7">
+                                                        <span class="arr"></span>
+                                                        <select name="data[Insurance][passenger_number7]" id="Insurance_passenger_number7" class="input_box passenger_number7" style="color: rgb(128, 128, 128);">
+                                                            <option value="">Passenger Seat</option>
+                                                            <option value="1">
+                                                                1 </option>
+                                                            <option value="2">
+                                                                2 </option>
+                                                            <option value="3">
+                                                                3 </option>
+                                                            <option value="4">
+                                                                4 </option>
+                                                            <option value="5">
+                                                                5 </option>
+                                                            <option value="6">
+                                                                6 </option>
+                                                            <option value="7">
+                                                                7 </option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="passenger_seat select" id="pset4">
+                                                        <span class="arr"></span>
+                                                        <select name="data[Insurance][passenger_number4]" id="Insurance_passenger_number4" class="input_box passenger_number4" style="color: rgb(128, 128, 128);">
+                                                            <option value="">Passenger Seat</option>
+                                                            <option value="1">
+                                                                1 </option>
+                                                            <option value="2">
+                                                                2 </option>
+                                                            <option value="3">
+                                                                3 </option>
+                                                            <option value="4">
+                                                                4 </option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="passenger_seat select" id="pset12" style="display: none;">
+                                                        <span class="arr"></span>
+                                                        <select name="data[Insurance][passenger_number12]" id="Insurance_passenger_number12" class="input_box passenger_number12" style="color: rgb(128, 128, 128);">
+                                                            <option value="">Passenger Seat</option>
+                                                            <option value="1">
+                                                                1 </option>
+                                                            <option value="2">
+                                                                2 </option>
+                                                            <option value="3">
+                                                                3 </option>
+                                                            <option value="4">
+                                                                4 </option>
+                                                            <option value="5">
+                                                                5 </option>
+                                                            <option value="6">
+                                                                6 </option>
+                                                            <option value="7">
+                                                                7 </option>
+                                                            <option value="8">
+                                                                8 </option>
+                                                            <option value="9">
+                                                                9 </option>
+                                                            <option value="10">
+                                                                10 </option>
+                                                            <option value="11">
+                                                                11 </option>
+                                                            <option value="12">
+                                                                12 </option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="text" id="passenger_fee" readonly="true" name="data[Insurance][passenger_fee]" class="input_box input-number ins-fee" value="45" style="display: none;">
+                                            <input type="text" id="driver_insurance_fee" readonly="true" name="data[Insurance][driver_insurance_fee]" class="input_box input-number" value="45" style="display: none;">
+                                        </div>
+                                        <div style="width: 100%;height: 1px;">
+                                            <a href="https://bankcomparebd.com/motorinsurance/#my_tooltip" class="initialism my_tooltip_open btn btn-success" id="my_tooltip_open" style="width: 80%;margin:10px 10% 0 10%" data-popup-ordinal="0"></a>
+                                        </div>
+
+                                        <div class="select">
+                                            <span class="arr"></span>
+                                            <select name="data[Insurance][get_certificate]" id="Insurance_get_certificate" class="input_box delivery" style="color: rgb(128, 128, 128);">
+                                                <option value="">Select Delivery Type</option>
+                                                <option value="1">
+                                                    Within 4 Hours </option>
+                                                <option value="2">
+                                                    Within 24 Hours </option>
+                                                <option value="3">
+                                                    Before insurance expired </option>
+                                            </select>
+                                        </div>
+                                        <div id="expire_date_set" style="display:none;">
+                                            <div class="row">
+                                                <div class="col-sm-12" style="padding:0">
+                                                    <input type="text" readonly="" name="data[Insurance][exp_date_set]" id="Insurance_exp_date_set" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="expire_date" style="display:none;">
+                                            <div class="row">
+                                                <div class="col-sm-12" style="padding:0">
+                                                    <input type="hidden" name="data[Insurance][certificate_renew_date]" id="certificate_renew_date" value="">
+                                                    <input type="text" name="" class="input_box expire_date date hasDatepicker" id="form_datetimepicker" placeholder="Insurance Expired date">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form_button">
+                                        <button type="submit" name="" id="Quotation">GET QUOTATION <img src="static/img/get_quotation_arrow.png"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+        </section>
+    </div> 
+
+    <!-- all js file here -->
+    <script src="static/js/content_1.js"></script>
+    <script src="static/js/custom.js"></script>  
+</body>
+
+</html>
